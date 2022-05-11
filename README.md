@@ -1,5 +1,3 @@
-Ajouter le lien a la page git hub
-
 https://francoisvanh.github.io/Tim-B-Lee/
 
-voilou
+Warning Mobile Version is trash as hell
