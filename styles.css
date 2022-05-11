@@ -1,0 +1,114 @@
+/* css */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightgray;
+    color: gray;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 40% 1fr;
+    grid-gap: 1.5%;
+    position: relative;
+
+}
+.box1,.box2,.box3 {
+    border-radius: 3px;
+}
+.box1 {
+    background-color: white;
+    grid-column: 2;
+     display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.box1>img {
+    border: solid 3px;
+    border-color: lightgray;
+    border-radius: 100%;
+    width: 17%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1> h1, h2, p {
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0.em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.box1>h1 {
+    color: coral;
+    font-weight: 800;
+}
+.box1>h2 {
+    font-weight: 400:
+}
+.box1>button {
+    max-width: 30%;
+    max-height: auto;
+    border-radius: 5px;
+    background-color: coral;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+.box1>button>a {
+    text-decoration: none;
+    color: white;
+}
+.box2 {
+    background-color: white;
+    color: lightgray;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.fb, .tt, .ld {
+    font-size: 30px;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    color:lightgray;
+    text-align: center;
+    transition: transform .2s;
+}
+.fb:hover,.tt:hover,.ld:hover {
+    transform: scale(1.2);
+}
+.fb>a {
+    text-decoration: none;
+}
+.tt>a {
+    text-decoration: none;
+}
+.ld>a {
+    text-decoration: none;
+}
+a:visited{
+    color:lightgray;
+}
+ul {
+    list-style-type: none;
+}
+.box3 {
+    background-color: white;
+    grid-column: 2;
+}
+.box3>h2 {
+    padding-top: 1em;
+}
+td {
+    text-align: center;
+}
+.box3>table>tbody>tr>td>img {
+        width: 85%;
+    height: auto;
+    display: block;
+}
+
